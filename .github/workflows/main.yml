@@ -38,8 +38,8 @@ steps:
   - name: Terraform Apply
     run: terraform apply -auto-approve
 
-      - name: Terraform Show Output
-        run: terraform output -json > terraform_output.json
+  - name: Terraform Show Output
+    run: terraform output -json > terraform_output.json
 
       
       # test
